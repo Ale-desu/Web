@@ -1,0 +1,94 @@
+
+div#contenedor{
+  background-color: grey;
+  width: auto;
+  height:1000px;
+}
+
+div#Cabeza{
+  background-color: blue;
+  width:auto;
+  height:75px;
+  margin:auto;
+  display: flex;
+}
+
+img#logom{
+  width: 75px;
+  height: 75px;
+  border-radius: 162px 162px 162px 162px;
+  -moz-border-radius: 162px 162px 162px 162px;
+  border: 0px solid #000000;
+  margin: 0px 520px 0px 10px
+}
+h2{
+  margin:10px 10px 10px 10px;
+  color: white;
+  font-family:sans-serif;
+  font-size: 40px;
+}
+
+div#contenido{
+  background-color: black;
+  width: auto;
+  height:700px;
+  margin: 0px 0px 0px 2px ;
+  display: block;/*por defaut es block*/
+  justify-content: center;
+  /*flex-wrap: wrap;
+*/}
+div#cont_titulo{
+  background-color: brown;
+  width: auto;
+  height: 235px;
+  margin: 10px 22px 10px 22px;
+  display: flex;
+  justify-content: center;
+}
+div#combos{
+  background-color:cyan;
+  width: auto;
+  height: 450px;
+  margin: 0px 22px 0px 22px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img.boton{
+  width: 100px;
+  height: 100px;
+}
+img.boton:hover{
+  width: 98px;
+  height: 98px;
+  border:2px solid #000000;
+}
+
+
+img.fotosc{
+  width: 150px;
+  height: 125px;
+  margin: 10px;
+}
+img.fotosc:hover{
+  width: 160px;
+  height: 135px;
+}
+div#negocio{
+  background-color: purple;
+  width: auto;
+  height: 100px;
+  margin: 2px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+ul#soc{
+  list-style-type: none;
+}
+img.social{
+  width: 15px;
+  height: 15px;
+  border-radius: 200px 200px 200px 200px;
+}

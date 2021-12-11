@@ -1,0 +1,205 @@
+/*se confiigura el contenedor general*/
+div#contenedor{
+  background-color: black;
+  width: auto;
+  height:auto;
+}
+/*se configura las dimenciones de la cabeza de la pagina*/
+div#Cabeza{
+  background-color:#ed8f27;
+  width:auto;
+  height:60px;
+  margin:0px 0px 0px 0px;
+  display: flex;
+}
+/*se da forma al logo*/
+img#logom{
+  width: 60px;
+  height: auto;
+  border-radius: 162px 162px 162px 162px;
+  -moz-border-radius: 162px 162px 162px 162px;
+  border: 0px solid #000000;
+  margin: 0px 480px 0px 10px
+}
+h1#main{
+  font-family: "Arial";
+  margin: auto;
+}
+/*se da forma al menu interactivo*/
+#navegasao{
+  margin-left: 90px;
+  width: auto;
+  height: auto;
+  background: #ed8f29;
+}
+/*se da forma al  menú*/
+#navegasao ul {
+  list-style:none;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
+  }
+/*se acomoda el primer nivel del menú y tamaño de fuente*/
+#hud > li {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  }
+  /*se acomonan las letras y se selecciona la fuente*/
+#hud >li>a{
+  display: block;
+  padding: 5px 15px;
+  color: black;
+  font-family: "Arial";
+  text-decoration: none;
+}
+/*se anima el menú*/
+#hud li a:hover{
+  color: blue;
+  transition: all .3s;
+}
+/*se posiciona el submenú y se condiciona*/
+#len{
+  position: absolute;
+  background: #d37812 ;
+  display: none;
+}
+/*se acomona el submenú*/
+#len li{
+  display: block;
+  padding: 15px;
+  font-family: "Arial";
+}
+/*se hace interactivo el submenú*/
+#hud li:hover #len{
+  display: block;
+}
+/*se configura el cuerpo de la pagina*/
+div#contenido{
+  background-color: #fdc180;
+  width: auto;
+  height:800px;
+  margin: 2px 0px 0px 2px ;
+  display: block;/*por defaut es block*/
+  justify-content: center;
+  /*flex-wrap: wrap;
+*/}
+
+/*se configuran los botones*/
+button#momentod{
+  background-color: none;
+  font-size: 18px;
+  border-color: black;
+  border-width: thin;
+  border-radius: 200px 200px 200px 200px;
+  margin-top:130px;
+  margin-left:1200px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+}
+button#momentoi{
+  background-color: none;
+  font-size: 18px;
+  border-color: black;
+  border-width: thin;
+  border-radius: 200px 200px 200px 200px;
+  margin-top:130px;
+  margin-right: 1200px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+}
+/*se configuran las noticias*/
+div#cont_titulo{
+  background-color: None;
+  width: auto;
+  height: 300px;
+  margin: 0px 15px 10px 15px;
+  display: flex;
+  justify-content: center;
+}
+/*se configuran los combos*/
+div#texto{
+  background-color:none;
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+}
+h2{
+  font-family: "Arial";
+  font-size: 30px;
+}
+div#combos{
+  background-color:#fdcb93;
+  margin:0px 22px 0px 22px;
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+div.texto2{
+  width: auto;
+  height: auto;
+    margin: 10px;
+}
+h4.grupo{
+  font-family: "Arial";
+  font-size: 20px;
+}
+/*se configuran las imagenes de noticias*/
+img#head{
+  width: auto;
+  height: auto;
+  margin: 5 px;
+}
+/*se configuran las imagenes de los combos*/
+img.fotosc{
+  width: 290px;
+  height: 240px;
+  border-radius: 19px 19px 19px 19px;
+  -moz-border-radius: 19px 19px 19px 19px;
+}
+/*se animan las imagenes de combos*/
+img.fotosc:hover{
+  width: 285px;
+  height: 235px;
+}
+/*se configura la sección de contactos*/
+div#negocio{
+  background-color: #b43616;
+  width: auto;
+  height: 100px;
+  margin: 2px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+div#contacto{
+  background-color: none;
+  margin-right: 200px;
+}
+h4.mod{
+  font-size: 16px;
+  font-family: "Arial";
+  color: white;
+}
+
+#soc{
+  width: auto;
+  height: auto;
+  list-style-type: none;
+}
+#soc ul{
+  display: inline-block;
+}
+#soc li{
+    display: inline-block;
+}
+/**/
+img.social{
+  width: 20px;
+  height: 20px;
+  border-radius: 200px 200px 200px 200px;
+}

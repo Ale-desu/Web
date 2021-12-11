@@ -1,0 +1,115 @@
+div#contenedor{
+  background-color: black;
+  width: auto;
+  height:auto;
+}
+
+div#Cabeza{
+  background-color: #ed8f27;
+  width:auto;
+  height:60px;
+  margin:0px 0px 0px 0px;
+  display: flex;
+}
+img#logom{
+  width: 60px;
+  height: auto;
+  border-radius: 162px 162px 162px 162px;
+  -moz-border-radius: 162px 162px 162px 162px;
+  border: 0px solid #000000;
+  margin: 0px 320px 0px 10px
+}
+h1#main{
+  font-family: "Arial";
+  margin: auto;
+}
+
+#navegasao{
+  margin-left: 90px;
+  width: auto;
+  height: auto;
+  background: #ed8f29;
+}
+#navegasao ul {
+  list-style:none;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
+  }
+
+#ref > li {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  }
+#ref >li >a{
+  display: block;
+  padding: 15px 15px;
+  color: black;
+  font-family: "Arial";
+  text-decoration: none;
+}
+#ref li a:hover{
+  color: blue;
+  transition: all .3s;
+}
+div#cuerpo{
+  background-color: #fdc180;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+img.menu{
+  width: 315px;
+  height: 205px;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 150<px;
+}
+div#negocio{
+  background-color: #b43616;
+  width: auto;
+  height: 100px;
+  margin: 2px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+div.apano{
+  width:auto;
+  height:auto;
+  margin: 9px 12px 9px 12px;
+}
+h4.texteo{
+  font-size: 16px;
+  font-family: "Arial";
+  margin-right: 200px;
+}
+div#contacto{
+  background-color: none;
+  margin-right: 200px;
+}
+h4.mod{
+  font-size: 16px;
+  font-family: "Arial";
+  color: white;
+}
+
+#soc{
+  width: auto;
+  height: auto;
+  list-style-type: none;
+}
+#soc ul{
+  display: inline-block;
+}
+#soc li{
+    display: inline-block;
+}
+/**/
+img.social{
+  width: 20px;
+  height: 20px;
+  border-radius: 200px 200px 200px 200px;
+}

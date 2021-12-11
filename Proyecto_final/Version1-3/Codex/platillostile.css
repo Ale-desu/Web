@@ -1,0 +1,67 @@
+div#contenedor{
+  background-color: grey;
+  width: auto;
+  height:1200px;
+}
+
+div#Cabeza{
+  background-color: blue;
+  width:auto;
+  height:60px;
+  margin:0px 0px 0px 0px;
+  display: flex;
+}
+img#logom{
+  width: 60px;
+  height: auto;
+  border-radius: 162px 162px 162px 162px;
+  -moz-border-radius: 162px 162px 162px 162px;
+  border: 0px solid #000000;
+  margin: 0px 550px 0px 10px
+}
+
+#navegasao{
+  margin-left: 90px;
+  width: auto;
+  height: auto;
+  background: yellow;
+}
+#navegasao ul {
+  list-style:none;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
+  }
+
+#ref > li {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  }
+#ref >li >a{
+  display: block;
+  padding: 15px 15px;
+  color: black;
+  font-family: "Arial";
+  text-decoration: none;
+}
+#ref li a:hover{
+  color: blue;
+  transition: all .3s;
+}
+div#cuerpo{
+  background-color: brown;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+img.menu{
+  width: 300px;
+  height: 195px;
+  margin: 11px;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 150<px;
+}
